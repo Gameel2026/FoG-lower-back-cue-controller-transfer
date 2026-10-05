@@ -1,0 +1,36 @@
+{
+  "fa_budget_per_hour": 50.0,
+  "specificity_floor": 0.7,
+  "development_data": "tdcsfog (62 subjects), 10 subject-grouped folds",
+  "operating_points": {
+    "LSTM": {
+      "theta_on": 0.65,
+      "theta_off": 0.4,
+      "timely_eligible_%": 20.4897,
+      "detected_%": 73.7792,
+      "false_alarms_per_hour": 48.5818,
+      "cue_specificity": 0.8774
+    },
+    "RF": {
+      "theta_on": 0.8,
+      "theta_off": 0.2,
+      "timely_eligible_%": 16.2371,
+      "detected_%": 71.4437,
+      "false_alarms_per_hour": 42.2963,
+      "cue_specificity": 0.8858
+    }
+  },
+  "lstm_final_epochs": 2,
+  "lstm_fold_epochs": [
+    2,
+    4,
+    1,
+    3,
+    2,
+    2,
+    2,
+    4,
+    1,
+    3
+  ]
+}

@@ -1,0 +1,3 @@
+model,parameters_or_nodes,feature_ms_per_window,inference_ms_per_window
+RF (100 trees),2603798,2.9722,31.2959
+LSTM (2 x 64),68738,2.9722,0.7454

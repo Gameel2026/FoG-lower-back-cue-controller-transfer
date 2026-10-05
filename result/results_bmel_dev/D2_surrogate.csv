@@ -1,0 +1,17 @@
+controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+RF/F1S,timely_eligible_%,25.6443,15.0728,17.0103,0.005
+RF/F1S,detected_%,83.6518,61.991,64.0127,0.005
+LSTM/F1S,timely_eligible_%,16.4948,11.0361,12.6289,0.005
+LSTM/F1S,detected_%,73.673,58.095,59.9841,0.005
+LSTMc/F1S,timely_eligible_%,15.3351,10.5741,12.3711,0.005
+LSTMc/F1S,detected_%,74.5223,59.6576,61.5764,0.005
+FUS/F1S,timely_eligible_%,18.1701,11.5026,13.1443,0.005
+FUS/F1S,detected_%,77.8132,59.4475,61.4703,0.005
+RF/TS,timely_eligible_%,52.0619,33.52,36.3402,0.005
+RF/TS,detected_%,95.1168,78.7309,80.4671,0.005
+LSTM/TS,timely_eligible_%,33.3763,19.2738,21.2629,0.005
+LSTM/TS,detected_%,86.6242,71.7537,73.8854,0.005
+LSTMc/TS,timely_eligible_%,32.9897,19.5651,21.6495,0.005
+LSTMc/TS,detected_%,86.8365,73.0732,75.1645,0.005
+FUS/TS,timely_eligible_%,44.9742,25.6192,28.2281,0.005
+FUS/TS,detected_%,94.1614,77.1062,78.8747,0.005
