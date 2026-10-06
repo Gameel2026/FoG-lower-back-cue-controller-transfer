@@ -1,0 +1,3 @@
+analysis,balance_windows_%,cue_specificity,false_alarms_per_hour,FoG_windows_in_balance,timely_observed,timely_surrogate_mean,timely_p,detection_observed,detection_surrogate_mean,detection_p
+Frozen LSTM (as registered),17.3546,0.6586,150.6539,3,17.7057,19.7771,0.8791,78.56,77.871,0.2934
+Oracle: cue off during balance tasks,17.3546,0.7132,110.3183,3,17.7057,19.5849,0.8591,78.4,77.7194,0.2949

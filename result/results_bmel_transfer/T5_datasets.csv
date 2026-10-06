@@ -1,0 +1,4 @@
+dataset,subjects,windows,hours,episodes,eligible_episodes,cue_needed_%
+defog,45,148871,20.677,611,401,11.09
+FoG-STAR,22,10071,1.399,83,77,29.908
+DAPHNET,10,35650,4.951,222,192,17.411

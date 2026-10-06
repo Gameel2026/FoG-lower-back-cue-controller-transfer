@@ -1,0 +1,3 @@
+dataset,analysis,null,windows_in_tasks_%,timely_observed,timely_surrogate_mean,timely_p,detection_observed,detection_surrogate_mean,detection_p
+defog,"Transfer, LSTM",task-preserving shift,99.5849,17.7057,19.9944,0.903,78.56,77.8087,0.2854
+defog,"Transfer, RF",task-preserving shift,99.5849,13.217,11.4279,0.1289,70.88,68.6247,0.0175

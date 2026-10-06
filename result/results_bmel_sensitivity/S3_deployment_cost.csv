@@ -1,0 +1,3 @@
+model,parameters,tree_nodes,serialised_size_MB,feature_ms_mean_sd,inference_ms_mean_sd,end_to_end_ms,processor,threads,repetitions
+LSTM,68738.0,,0.278,7.41 (1.74),0.84 (0.15),8.256,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",6,1000
+RF,,2846660.0,227.767,7.41 (1.74),26.05 (5.35),33.469,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",6,1000

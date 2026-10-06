@@ -1,0 +1,7 @@
+dataset,analysis,metric,observed,surrogate_mean,surrogate_95th,p_one_sided,false_alarms_per_hour,cue_specificity
+defog,within-dataset LSTM (post hoc surrogate),timely_eligible_%,18.4539,17.3017,20.4489,0.2687,94.5517,0.8009
+defog,within-dataset LSTM (post hoc surrogate),detected_%,65.92,64.1208,66.088,0.0697,94.5517,0.8009
+FoG-STAR,within-dataset LSTM (post hoc surrogate),timely_eligible_%,9.0909,13.3182,20.7792,0.9055,59.3387,0.8232
+FoG-STAR,within-dataset LSTM (post hoc surrogate),detected_%,77.1084,61.0843,67.4699,0.005,59.3387,0.8232
+DAPHNET,within-dataset LSTM (post hoc surrogate),timely_eligible_%,29.1667,11.7656,15.625,0.005,62.4067,0.7677
+DAPHNET,within-dataset LSTM (post hoc surrogate),detected_%,90.0901,53.2297,61.7117,0.005,62.4067,0.7677

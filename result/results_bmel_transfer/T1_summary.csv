@@ -1,0 +1,7 @@
+dataset,controller,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_eligible_%,eligible_episodes
+defog,LSTM,0.708,0.6586,0.2055,0.3185,0.6833,625,62.4,78.56,9.75,150.6539,4.75,17.7057,401
+defog,RF,0.7202,0.6894,0.2244,0.3422,0.7048,625,58.24,70.88,15.0,90.1022,7.5,13.217,401
+FoG-STAR,LSTM,0.3689,0.6522,0.3116,0.3378,0.5105,83,46.988,65.0602,6.5,103.664,0.75,20.7792,77
+FoG-STAR,RF,0.2802,0.7592,0.3318,0.3038,0.5197,83,10.8434,36.1446,6.5,55.0492,2.5,2.5974,77
+DAPHNET,LSTM,0.7292,0.7702,0.4008,0.5173,0.7497,222,67.5676,92.7928,4.5,79.7756,4.5,34.8958,192
+DAPHNET,RF,0.2742,0.6057,0.1279,0.1744,0.44,222,18.4685,40.5405,4.0,96.5386,3.5,8.3333,192

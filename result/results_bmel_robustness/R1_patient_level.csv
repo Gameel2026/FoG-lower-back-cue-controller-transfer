@@ -1,0 +1,13 @@
+dataset,controller,metric,n_patients,median_excess,CI_low,CI_high,patients_above_chance,wilcoxon_p_one_sided
+defog,LSTM,timely activation,39,-6.04,-11.8,0.0,11,0.9954
+defog,LSTM,episode coverage,42,0.0,-3.6318,0.4009,17,0.7885
+defog,RF,timely activation,39,-1.0,-2.08,1.5,15,0.6385
+defog,RF,episode coverage,42,-0.0429,-1.6997,0.8381,16,0.443
+FoG-STAR,LSTM,timely activation,15,-8.1,-17.2,5.4667,6,0.8204
+FoG-STAR,LSTM,episode coverage,16,4.8,-10.74,9.4,9,0.3247
+FoG-STAR,RF,timely activation,15,-6.95,-11.5,-3.5,2,0.9991
+FoG-STAR,RF,episode coverage,16,-11.25,-14.4,3.2667,5,0.9114
+DAPHNET,LSTM,timely activation,8,19.7231,13.6812,24.9407,8,0.0039
+DAPHNET,LSTM,episode coverage,8,40.5682,30.3826,55.32,8,0.0039
+DAPHNET,RF,timely activation,8,-2.8071,-5.237,0.2095,2,0.9883
+DAPHNET,RF,episode coverage,8,-11.8378,-18.2148,-4.08,1,0.9922

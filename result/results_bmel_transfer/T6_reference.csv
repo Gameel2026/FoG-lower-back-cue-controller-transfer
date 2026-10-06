@@ -1,0 +1,7 @@
+dataset,controller,training,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_eligible_%,eligible_episodes
+defog,LSTM,within-dataset (grouped CV),0.5519,0.8009,0.2569,0.3506,0.6764,625,45.6,65.92,7.0,94.5517,3.5,18.4539,401
+defog,RF,within-dataset (grouped CV),0.0,0.9999,0.0,0.0,0.5,625,0.0,0.0,0.0,0.1935,0.0,0.0,401
+FoG-STAR,LSTM,within-dataset (grouped CV),0.5581,0.8232,0.5739,0.5659,0.6907,83,28.9157,77.1084,14.25,59.3387,3.0,9.0909,77
+FoG-STAR,RF,within-dataset (grouped CV),0.0604,0.984,0.6169,0.1101,0.5222,83,6.0241,10.8434,1.5,10.0089,1.75,3.8961,77
+DAPHNET,LSTM,within-dataset (grouped CV),0.709,0.7677,0.3915,0.5045,0.7384,222,63.0631,90.0901,6.0,62.4067,3.5,29.1667,192
+DAPHNET,RF,within-dataset (grouped CV),0.0313,0.9925,0.4663,0.0586,0.5119,222,2.7027,9.009,0.5,8.0785,2.0,2.6042,192

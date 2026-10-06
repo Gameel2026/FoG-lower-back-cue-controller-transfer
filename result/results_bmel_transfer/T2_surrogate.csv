@@ -1,0 +1,13 @@
+dataset,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+defog,LSTM,timely_eligible_%,17.7057,19.8728,22.7182,0.8607
+defog,LSTM,detected_%,78.56,77.8928,79.68,0.3085
+defog,RF,timely_eligible_%,13.217,10.9776,13.4663,0.1045
+defog,RF,detected_%,70.88,68.8424,70.568,0.0348
+FoG-STAR,LSTM,timely_eligible_%,20.7792,19.2922,27.2727,0.3881
+FoG-STAR,LSTM,detected_%,65.0602,64.6325,71.0843,0.5622
+FoG-STAR,RF,timely_eligible_%,2.5974,8.7987,14.2857,1.0
+FoG-STAR,RF,detected_%,36.1446,38.006,44.5783,0.7612
+DAPHNET,LSTM,timely_eligible_%,34.8958,13.2422,17.7083,0.005
+DAPHNET,LSTM,detected_%,92.7928,53.4009,61.2613,0.005
+DAPHNET,RF,timely_eligible_%,8.3333,11.9688,15.625,0.9502
+DAPHNET,RF,detected_%,40.5405,54.036,59.9099,1.0
