@@ -54,21 +54,23 @@ The registration covers the **transfer evaluation**, not the whole study. Chrono
 |---|---|---|---|
 | 1 | `kaggle_convert.py` | convert tdcsfog/defog to the DAPHNET text format (lower back, 64 Hz, mg, Valid & Task, 2 s merging) | `daphnet_format/` |
 | 2 | `kaggle_merge_check.py` | annotation statistics for the merging rule (raw labels) | screen |
-| 3 | `bmel_dev.py` | development: 8 controllers, 10 subject-grouped folds, surrogate, cost | `results_bmel_dev/` |
-| 4 | `bmel_dev2.py` | trade-off curves, LSTM ≥ 5 epochs | `results_bmel_dev2/` |
+| 3 | `bmel_dev.py` | development: 8 controllers, 10 subject-grouped folds, surrogate, cost | `result/results_bmel_dev/` |
+| 4 | `bmel_dev2.py` | trade-off curves, LSTM ≥ 5 epochs | `result/results_bmel_dev2/` |
 | 5 | `bmel_freeze.py` | fixes operating points and training length from development data only | `frozen_config.json` |
-| 6 | `bmel_transfer.py` | **registered transfer evaluation** | `results_bmel_transfer/` |
-| 7 | `bmel_posthoc.py` | post hoc P1–P4: within-dataset retraining, home false alarms by task, local recalibration, axis check | `results_bmel_posthoc/` |
-| 8 | `bmel_posthoc_axes.py` | post hoc P5: FoG-STAR after aligning the vertical axis | `results_bmel_posthoc/P5_*.csv` |
-| 9 | `bmel_oracle.py` | post hoc P6: oracle activity context (cue off in balance tasks; upper bound) | `results_bmel_posthoc/P6_*.csv` |
-| 10 | `bmel_sensitivity.py` | sensitivity: 2,000 shifts, task-preserving surrogate, deployment cost | `results_bmel_sensitivity/` |
-| 11 | `bmel_robustness.py` | robustness: patient as unit of inference, merging rules 1 s and 3 s | `results_bmel_robustness/` |
+| 6 | `bmel_transfer.py` | **registered transfer evaluation** | `result/results_bmel_transfer/` |
+| 7 | `bmel_posthoc.py` | post hoc P1–P4: within-dataset retraining, home false alarms by task, local recalibration, axis check | `result/results_bmel_posthoc/` |
+| 8 | `bmel_posthoc_axes.py` | post hoc P5: FoG-STAR after aligning the vertical axis | `result/results_bmel_posthoc/P5_*.csv` |
+| 9 | `bmel_oracle.py` | post hoc P6: oracle activity context (cue off in balance tasks; upper bound) | `result/results_bmel_posthoc/P6_*.csv` |
+| 10 | `bmel_sensitivity.py` | sensitivity: 2,000 shifts, task-preserving surrogate, deployment cost | `result/results_bmel_sensitivity/` |
+| 11 | `bmel_robustness.py` | robustness: patient as unit of inference, merging rules 1 s and 3 s | `result/results_bmel_robustness/` |
 
-The scripts reuse the pipeline modules of the companion release (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`,
-`fog_fix3.py`, `fog_deep.py`, `fog_lstm_controller.py`, `fog_floor_sensitivity.py`, `fog_stats.py`, `paths.py`),
-which must be in the same folder. Paths to the data are set at the top of each script.
+The scripts reuse shared pipeline modules (windowing, features, hysteresis, event metrics, LSTM training), which are
+included in the folder `pipeline/` (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`, `fog_fix3.py`, `fog_deep.py`,
+`fog_lstm_controller.py`, `fog_floor_sensitivity.py`, `fog_stats.py`, `paths.py`). Copy them next to the scripts before
+running. The scripts write their outputs to `results_bmel_*/` in the working folder; the files from the study are stored
+in `result/`. Paths to the data are set at the top of each script and in `paths.py`.
 
-Requirements: Python 3.10+, numpy, pandas, scipy, scikit-learn, PyTorch, joblib, matplotlib.
+Requirements: see `requirements.txt` (Python 3.10+, numpy, pandas, scipy, scikit-learn, PyTorch, joblib, matplotlib).
 
 ## 5. Main results
 
@@ -105,4 +107,4 @@ analysis plan). GitHub, 2026. https://github.com/Gameel2026/FoG-lower-back-cue-c
 
 ## 8. Licence
 
-Code: MIT. The datasets remain under their original licences.
+Code: MIT (see `LICENSE`). The datasets remain under their original licences.
