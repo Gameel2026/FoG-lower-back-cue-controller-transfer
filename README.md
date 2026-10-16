@@ -65,9 +65,12 @@ The registration covers the **transfer evaluation**, not the whole study. Chrono
 | 9 | `bmel_oracle.py` | post hoc P6: oracle activity context (cue off in balance tasks; upper bound) | `result/results_bmel_posthoc/P6_*.csv` |
 | 10 | `bmel_sensitivity.py` | sensitivity: 2,000 shifts, task-preserving surrogate, deployment cost | `result/results_bmel_sensitivity/` |
 | 11 | `bmel_robustness.py` | robustness: patient as unit of inference, merging rules 1 s and 3 s | `result/results_bmel_robustness/` |
+| 12 | `conf2_step1_analysis.py` | completed calibration analysis (plan `CONF2_PLAN.md`); provides the home-trained population thresholds (C-pop); needs `conf_step1_analysis.py` | `results_conference2/` |
+| 13 | `bmel_posthoc2.py` | post hoc P7–P8 (`POSTHOC_ADDENDUM.md`): home-trained controller, full threshold sweep at home | `results_bmel_posthoc2/` |
+| 14 | `bmel_posthoc3.py` | post hoc P9–P10 (`POSTHOC_ADDENDUM_2.md`): medication state, cue-activation burden | `results_bmel_posthoc3/` |
 
 The scripts reuse shared pipeline modules (windowing, features, hysteresis, event metrics, LSTM training), which are
-included in the folder `pipeline/` (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`, `fog_fix3.py`, `fog_deep.py`,
+included in this repository (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`, `fog_fix3.py`, `fog_deep.py`,
 `fog_lstm_controller.py`, `fog_floor_sensitivity.py`, `fog_stats.py`, `paths.py`). Copy them next to the scripts before
 running. The scripts write their outputs to `results_bmel_*/` in the working folder; the files from the study are stored
 in `result/`. Paths to the data are set at the top of each script and in `paths.py`.
@@ -87,6 +90,10 @@ The conclusions were unchanged with 2,000 shifts, a task-preserving surrogate, t
 and merging rules of 1 s and 3 s. Deployment cost (laptop): LSTM 0.28 MB, 8.3 ms processing per 0.5 s window;
 RF reference 228 MB, 33 ms.
 
+Post hoc (P7–P10): with thresholds selected on training subjects, a home-trained LSTM reduced false alarms to 25.2/h
+(lower in all 45 patients) and episode coverage exceeded chance (52.2% vs 49.1%, p = 0.003), but timely activation did
+not; no threshold pair of the grid gave timely activation above chance for either model, in either medication state.
+
 ## 6. Notes
 
 * Large intermediate files (`*.pkl`, `*.npy`) are not included; they are recreated by the scripts.
@@ -100,6 +107,7 @@ RF reference 228 MB, 33 ms.
 * **Patient-level analysis.** The patient-specific surrogate analysis (`bmel_robustness.py`) was added after registration
   and is reported as supporting evidence; the registered primary analysis is the pooled circular-shift test.
 * Analyses after step 5 are post hoc and explanatory; they do not change the registered result.
+* **Post hoc addenda.** `POSTHOC_ADDENDUM.md` and `POSTHOC_ADDENDUM_2.md` were committed before `bmel_posthoc2.py` and `bmel_posthoc3.py` were run (see the commit history); `PREREGISTRATION_BMEL.md`, `frozen_config.json` and `bmel_transfer.py` are unchanged.
 
 ## 7. Citation
 
