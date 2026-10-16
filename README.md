@@ -70,6 +70,7 @@ The registration covers the **transfer evaluation**, not the whole study. Chrono
 | 14 | `bmel_posthoc3.py` | post hoc P9–P10 (`POSTHOC_ADDENDUM_2.md`): medication state, cue-activation burden | `results_bmel_posthoc3/` |
 | 15 | `bmel_posthoc4.py` | post hoc (`POSTHOC_ADDENDUM_3.md`): timing of activation relative to onset, ten further training seeds, training-free baselines (freeze index, movement power) | `results_bmel_posthoc4/` |
 | 16 | `bmel_posthoc5.py` | post hoc (`POSTHOC_ADDENDUM_4.md`): subject overlap tdcsfog/defog, timing by protocol task, temporal-context ablation and compact random forest, patient bootstrap intervals, software and hardware | `results_bmel_posthoc5/` |
+| 17 | `bmel_posthoc6.py` | post hoc (`POSTHOC_ADDENDUM_5.md`): home-trained LSTM with early stopping and thresholds selected on held-out training subjects | `results_bmel_posthoc6/` |
 
 The scripts reuse shared pipeline modules (windowing, features, hysteresis, event metrics, LSTM training), which are
 included in this repository (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`, `fog_fix3.py`, `fog_deep.py`,
@@ -101,7 +102,8 @@ Post hoc (addenda 3 and 4): at home, the cue was often already active more than 
 episodes, chance 43.6%), mostly during turning; timely activation exceeded chance on DAPHNET for all ten further training
 seeds and for none at home or on FoG-STAR; a movement-only baseline covered DAPHNET episodes above chance but did not
 show timely activation above chance, and the freeze-index baseline exceeded chance for neither outcome in any dataset.
-No contest subject code appeared in both tdcsfog and defog.
+No contest subject code appeared in both tdcsfog and defog. With early stopping on home training subjects (addendum 5;
+median two epochs, range 1–8), neither timely activation nor episode coverage exceeded chance at home.
 
 ## 6. Notes
 
@@ -116,8 +118,8 @@ No contest subject code appeared in both tdcsfog and defog.
 * **Patient-level analysis.** The patient-specific surrogate analysis (`bmel_robustness.py`) was added after registration
   and is reported as supporting evidence; the registered primary analysis is the pooled circular-shift test.
 * Analyses after step 5 are post hoc and exploratory; they do not change the registered result.
-* **Post hoc addenda.** `POSTHOC_ADDENDUM.md`, `POSTHOC_ADDENDUM_2.md`, `POSTHOC_ADDENDUM_3.md` and `POSTHOC_ADDENDUM_4.md`
-  were each committed before the corresponding script (`bmel_posthoc2.py` to `bmel_posthoc5.py`) was run (see the commit
+* **Post hoc addenda.** `POSTHOC_ADDENDUM.md` to `POSTHOC_ADDENDUM_5.md` were each committed before the corresponding script
+  (`bmel_posthoc2.py` to `bmel_posthoc6.py`) was run (see the commit
   history); `PREREGISTRATION_BMEL.md`, `frozen_config.json` and `bmel_transfer.py` are unchanged.
 
 ## 7. Citation
