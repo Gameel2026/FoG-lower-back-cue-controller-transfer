@@ -1,0 +1,5 @@
+controller,metric,n_patients,median_excess,CI_low,CI_high,patients_above_chance,wilcoxon_p_one_sided
+frozen laboratory LSTM,timely activation,39,-6.04,-11.8,0.0,11,0.9954
+frozen laboratory LSTM,episode coverage,42,0.0,-3.6318,0.4009,17,0.7885
+"home-trained LSTM, C-pop",timely activation,39,-0.53,-3.4,0.0,12,0.8609
+"home-trained LSTM, C-pop",episode coverage,42,0.4997,0.0,6.4237,22,0.0198

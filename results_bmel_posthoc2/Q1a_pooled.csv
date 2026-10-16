@@ -1,0 +1,3 @@
+controller,false_alarms_per_hour,specificity,coverage_%,timely_%,timely_surrogate,p_timely,coverage_surrogate,p_coverage
+frozen laboratory LSTM,150.6539,0.6586,78.56,17.7057,19.7771,0.8791,77.871,0.2934
+"home-trained LSTM, C-pop",25.246,0.8382,52.16,5.2369,5.949,0.7806,49.1109,0.003

@@ -1,0 +1,3 @@
+controller,cue_on_outside_targets_%,unnecessary_cue_min_per_hour,false_alarm_runs,fa_run_median_s,fa_run_IQR_s,fa_run_p90_s,fa_runs_longer_10s_%,all_runs,run_median_s,run_p90_s
+frozen laboratory LSTM,34.1422,18.2135,3115,3.5,1.5-6.5,14.5,14.3499,3655,3.5,18.0
+"home-trained LSTM, C-pop",16.1823,8.6326,522,10.0,4.0-21.4,39.45,49.8084,715,12.5,49.3

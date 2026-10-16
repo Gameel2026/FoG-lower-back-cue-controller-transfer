@@ -1,0 +1,4 @@
+metric,n_patients,median_home,median_laboratory,median_difference,patients_better_home,patients_worse_home,p_wilcoxon_two_sided,p_holm
+false_alarms_per_hour,45,18.75,164.48153,-138.46154,45,0,0.0,0.0
+coverage_%,42,50.0,78.88889,-19.88596,4,24,0.00035,0.0007
+timely_%,39,0.0,6.25,0.0,4,19,0.01202,0.01202
