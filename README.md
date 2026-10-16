@@ -68,6 +68,8 @@ The registration covers the **transfer evaluation**, not the whole study. Chrono
 | 12 | `conf2_step1_analysis.py` | completed calibration analysis (plan `CONF2_PLAN.md`); provides the home-trained population thresholds (C-pop); needs `conf_step1_analysis.py` | `results_conference2/` |
 | 13 | `bmel_posthoc2.py` | post hoc P7–P8 (`POSTHOC_ADDENDUM.md`): home-trained controller, full threshold sweep at home | `results_bmel_posthoc2/` |
 | 14 | `bmel_posthoc3.py` | post hoc P9–P10 (`POSTHOC_ADDENDUM_2.md`): medication state, cue-activation burden | `results_bmel_posthoc3/` |
+| 15 | `bmel_posthoc4.py` | post hoc (`POSTHOC_ADDENDUM_3.md`): timing of activation relative to onset, ten further training seeds, training-free baselines (freeze index, movement power) | `results_bmel_posthoc4/` |
+| 16 | `bmel_posthoc5.py` | post hoc (`POSTHOC_ADDENDUM_4.md`): subject overlap tdcsfog/defog, timing by protocol task, temporal-context ablation and compact random forest, patient bootstrap intervals, software and hardware | `results_bmel_posthoc5/` |
 
 The scripts reuse shared pipeline modules (windowing, features, hysteresis, event metrics, LSTM training), which are
 included in this repository (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`, `fog_fix3.py`, `fog_deep.py`,
@@ -75,7 +77,8 @@ included in this repository (`fog_pipeline.py`, `fog_study.py`, `fog_improve.py`
 running. The scripts write their outputs to `results_bmel_*/` in the working folder; the files from the study are stored
 in `result/`. Paths to the data are set at the top of each script and in `paths.py`.
 
-Requirements: see `requirements.txt` (Python 3.10+, numpy, pandas, scipy, scikit-learn, PyTorch, joblib, matplotlib).
+Requirements: see `requirements.txt` (numpy, pandas, scipy, scikit-learn, PyTorch, joblib, matplotlib). The analyses were run
+with Python 3.8.5, numpy 1.19.2, pandas 1.1.3, scikit-learn 1.3.2 and PyTorch 2.4.1 (CPU) on Windows 10.
 
 ## 5. Main results
 
@@ -94,6 +97,12 @@ Post hoc (P7–P10): with thresholds selected on training subjects, a home-train
 (lower in all 45 patients) and episode coverage exceeded chance (52.2% vs 49.1%, p = 0.003), but timely activation did
 not; no threshold pair of the grid gave timely activation above chance for either model, in either medication state.
 
+Post hoc (addenda 3 and 4): at home, the cue was often already active more than 4 s before onset (47.6% of eligible
+episodes, chance 43.6%), mostly during turning; timely activation exceeded chance on DAPHNET for all ten further training
+seeds and for none at home or on FoG-STAR; a movement-only baseline covered DAPHNET episodes above chance but did not
+show timely activation above chance, and the freeze-index baseline exceeded chance for neither outcome in any dataset.
+No contest subject code appeared in both tdcsfog and defog.
+
 ## 6. Notes
 
 * Large intermediate files (`*.pkl`, `*.npy`) are not included; they are recreated by the scripts.
@@ -106,8 +115,10 @@ not; no threshold pair of the grid gave timely activation above chance for eithe
   *episode coverage* in the manuscript (cue active at any time during the episode, including after onset).
 * **Patient-level analysis.** The patient-specific surrogate analysis (`bmel_robustness.py`) was added after registration
   and is reported as supporting evidence; the registered primary analysis is the pooled circular-shift test.
-* Analyses after step 5 are post hoc and explanatory; they do not change the registered result.
-* **Post hoc addenda.** `POSTHOC_ADDENDUM.md` and `POSTHOC_ADDENDUM_2.md` were committed before `bmel_posthoc2.py` and `bmel_posthoc3.py` were run (see the commit history); `PREREGISTRATION_BMEL.md`, `frozen_config.json` and `bmel_transfer.py` are unchanged.
+* Analyses after step 5 are post hoc and exploratory; they do not change the registered result.
+* **Post hoc addenda.** `POSTHOC_ADDENDUM.md`, `POSTHOC_ADDENDUM_2.md`, `POSTHOC_ADDENDUM_3.md` and `POSTHOC_ADDENDUM_4.md`
+  were each committed before the corresponding script (`bmel_posthoc2.py` to `bmel_posthoc5.py`) was run (see the commit
+  history); `PREREGISTRATION_BMEL.md`, `frozen_config.json` and `bmel_transfer.py` are unchanged.
 
 ## 7. Citation
 
