@@ -1,6 +1,6 @@
 # Laboratory-to-home transfer of a lightweight temporal cue controller for freezing of gait
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23184573.svg)](https://doi.org/10.5281/zenodo.23184573)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23410732.svg)](https://doi.org/10.5281/zenodo.23410732)
 
 Code, registered analysis plan and results for the manuscript
 **"Laboratory-to-home transfer of a lightweight temporal cue controller for freezing of gait: a multi-dataset validation study with a single lower-back accelerometer"** (submitted to *Biomedical Engineering Letters*).
@@ -113,7 +113,8 @@ not; no threshold pair of the grid gave timely activation above chance for eithe
 
 Please cite the article once published, or this archived release:
 Soliman AM, Nashaat Gamil DY, Hammad MS, Hassan MA. FoG lower-back cue controller transfer: code and registered
-analysis plan (v1.0.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.23184573
+analysis plan (v1.1.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.23410732
+(v1.0.0, the version with the registered transfer evaluation only: https://doi.org/10.5281/zenodo.23184573)
 
 ## 8. Licence
 
