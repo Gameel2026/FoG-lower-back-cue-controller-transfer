@@ -1,0 +1,5 @@
+defog input,controller,specificity,false_alarms_per_hour,cue_on_%,timely_%,timely_chance,p_timely,coverage_%,coverage_chance,p_coverage,timely_excess_median,timely_excess_CI,timely_patients_above,timely_excess_p,coverage_excess_median,coverage_excess_CI,coverage_patients_above,coverage_excess_p
+as registered,LSTM,0.6586,150.6539,38.2076,17.7057,19.7771,0.8791,78.56,77.871,0.2934,-6.04,"[-11.8, 0.0]",11/39,0.9954,0.0,"[-3.6, 0.4]",17/42,0.7885
+as registered,RF,0.6894,90.1022,35.5993,13.217,11.0335,0.087,70.88,68.7311,0.0285,-1.0,"[-2.1, 1.5]",15/39,0.6385,-0.0429,"[-1.7, 0.8]",16/42,0.443
+forward axis sign inverted,LSTM,0.7361,107.1747,30.4048,14.9626,16.9384,0.8811,71.2,68.7549,0.0195,-1.8,"[-7.6, 0.7]",14/39,0.9039,0.0475,"[-1.2, 2.7]",21/42,0.4134
+forward axis sign inverted,RF,0.7061,92.8106,33.93,14.2145,12.0751,0.092,68.96,66.9538,0.031,0.0,"[-1.5, 3.4]",19/39,0.3447,0.0,"[-1.4, 3.0]",19/42,0.2462
