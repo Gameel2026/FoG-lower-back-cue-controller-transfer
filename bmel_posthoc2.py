@@ -22,10 +22,12 @@ N_POOLED, N_SWEEP, N_RETEST = 2000, 200, 2000
 FA_MAX, SPEC_MIN = 50.0, 0.70
 warnings.filterwarnings("ignore")
 
+
 def metrics(on, y4, meta, cfg, onsets):
     s = bd.summarise(y4, on, meta, cfg, onsets)
     return {"false_alarms_per_hour": s["false_alarms_per_hour"], "specificity": s["cue_specificity"],
             "coverage_%": s["detected_%"], "timely_%": s["timely_eligible_%"]}
+
 
 def main():
     os.makedirs(OUT, exist_ok=True); pd.set_option("display.width", 250); pd.set_option("display.max_columns", None)
@@ -40,7 +42,7 @@ def main():
 
     on_lab = apply_hysteresis(p_lab, meta, allm, *th_lab)
     K4 = pd.read_csv("results_conference2/defog_K4_thresholds.csv")
-    K4 = K4[K4.controller == "C-pop"].drop_duplicates(["subject", "run"])
+    K4 = K4[K4.controller == "C-personal"].drop_duplicates(["subject", "run"])
     pair = {(int(r.subject), int(r.run)): ast.literal_eval(r.population_pair) for r in K4.itertuples()}
     keys = list(zip(meta.subject.astype(int), meta.run.astype(int)))
     missing = sorted(set(keys) - set(pair))
@@ -127,6 +129,7 @@ def main():
     print("\nQ1c per patient: home-trained (C-pop) vs frozen laboratory LSTM\n", C.round(4).to_string(index=False))
     print("\nQ2 threshold sweep at home\n", D.T.to_string(header=False))
     print(f"\nDone. Files in {OUT}/ (post hoc, POSTHOC_ADDENDUM.md)")
+
 
 if __name__ == "__main__":
     main()
