@@ -1,0 +1,17 @@
+dataset,controller,category,eligible_episodes,observed_%,chance_%,p_greater,p_less
+defog,frozen laboratory LSTM,timely_new_activation,401,17.7057,19.7242,0.8822,0.1537
+defog,frozen laboratory LSTM,already_on_over_4s,401,47.6309,43.6394,0.01,0.992
+defog,frozen laboratory LSTM,on_after_onset,401,12.2195,14.2983,0.9082,0.1078
+defog,frozen laboratory LSTM,missed,401,22.4439,22.3382,0.511,0.5629
+defog,home-trained LSTM (P7),timely_new_activation,401,5.2369,6.0424,0.7924,0.2735
+defog,home-trained LSTM (P7),already_on_over_4s,401,34.9127,32.5666,0.0679,0.9441
+defog,home-trained LSTM (P7),on_after_onset,401,11.7207,7.9456,0.004,1.0
+defog,home-trained LSTM (P7),missed,401,48.1297,53.4454,1.0,0.002
+FoG-STAR,frozen laboratory LSTM,timely_new_activation,77,20.7792,19.3195,0.4072,0.7066
+FoG-STAR,frozen laboratory LSTM,already_on_over_4s,77,29.8701,20.6364,0.006,0.996
+FoG-STAR,frozen laboratory LSTM,on_after_onset,77,16.8831,26.8857,0.996,0.0279
+FoG-STAR,frozen laboratory LSTM,missed,77,32.4675,33.1584,0.6168,0.511
+DAPHNET,frozen laboratory LSTM,timely_new_activation,192,34.8958,13.3542,0.002,1.0
+DAPHNET,frozen laboratory LSTM,already_on_over_4s,192,31.25,25.7573,0.0758,0.9441
+DAPHNET,frozen laboratory LSTM,on_after_onset,192,26.5625,14.7479,0.002,1.0
+DAPHNET,frozen laboratory LSTM,missed,192,7.2917,46.1406,1.0,0.002

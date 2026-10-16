@@ -1,0 +1,13 @@
+baseline,dataset,outcome,n_patients,median_excess,CI_low,CI_high,patients_above_chance,wilcoxon_p_one_sided
+freeze_index,defog,timely,39,-1.7778,-4.25,1.15,16,0.8562
+freeze_index,defog,coverage,42,-2.4,-6.0625,0.0,15,0.9812
+freeze_index,FoG-STAR,timely,15,-3.7,-7.65,0.0,3,0.8893
+freeze_index,FoG-STAR,coverage,16,-2.3,-10.6,5.0222,6,0.587
+freeze_index,DAPHNET,timely,8,-0.8759,-3.819,2.8492,4,0.6797
+freeze_index,DAPHNET,coverage,8,-6.8491,-21.8917,3.9433,3,0.9023
+movement_power,defog,timely,39,-0.6667,-4.0,0.0,8,0.9842
+movement_power,defog,coverage,42,0.0,-0.5231,0.5177,17,0.4396
+movement_power,FoG-STAR,timely,15,0.0,-0.8,0.0,2,0.4583
+movement_power,FoG-STAR,coverage,16,0.0,0.0,6.7667,5,0.0881
+movement_power,DAPHNET,timely,8,0.598,-3.6476,4.9969,4,0.3677
+movement_power,DAPHNET,coverage,8,20.1754,1.4963,32.7565,7,0.009

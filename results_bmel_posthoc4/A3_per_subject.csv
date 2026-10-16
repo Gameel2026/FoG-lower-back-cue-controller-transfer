@@ -1,0 +1,265 @@
+dataset,controller,subject,eligible,timely_%,coverage_%,false_alarms_per_hour
+defog,freeze_index,2,2,0.0,0.0,75.545
+defog,freeze_index,3,14,35.714,78.261,28.493
+defog,freeze_index,4,0,,0.0,58.091
+defog,freeze_index,6,7,0.0,28.571,38.814
+defog,freeze_index,7,12,8.333,15.385,75.5
+defog,freeze_index,8,15,13.333,58.621,66.229
+defog,freeze_index,9,1,0.0,66.667,88.77
+defog,freeze_index,10,4,0.0,0.0,107.53
+defog,freeze_index,11,6,0.0,30.0,79.524
+defog,freeze_index,12,16,18.75,56.522,33.989
+defog,freeze_index,13,0,,33.333,90.097
+defog,freeze_index,14,1,0.0,66.667,85.997
+defog,freeze_index,15,2,0.0,66.667,89.313
+defog,freeze_index,16,7,14.286,25.0,63.443
+defog,freeze_index,17,8,0.0,41.667,86.477
+defog,freeze_index,18,16,6.25,43.478,27.753
+defog,freeze_index,19,0,,0.0,85.629
+defog,freeze_index,20,13,23.077,85.714,73.256
+defog,freeze_index,21,17,5.882,71.875,62.947
+defog,freeze_index,22,4,0.0,75.0,139.037
+defog,freeze_index,23,3,0.0,100.0,59.586
+defog,freeze_index,24,34,20.588,69.811,52.045
+defog,freeze_index,25,7,0.0,10.0,54.35
+defog,freeze_index,26,19,10.526,38.462,109.821
+defog,freeze_index,27,13,7.692,21.053,52.321
+defog,freeze_index,29,7,14.286,77.778,72.671
+defog,freeze_index,30,1,0.0,0.0,92.529
+defog,freeze_index,31,18,5.556,34.483,54.982
+defog,freeze_index,32,4,0.0,0.0,102.176
+defog,freeze_index,33,1,0.0,66.667,56.942
+defog,freeze_index,34,19,10.526,29.545,35.143
+defog,freeze_index,35,6,16.667,44.444,134.579
+defog,freeze_index,36,40,15.0,75.41,81.757
+defog,freeze_index,37,20,5.0,31.818,135.257
+defog,freeze_index,38,9,0.0,91.667,154.958
+defog,freeze_index,39,10,10.0,45.455,103.721
+defog,freeze_index,40,8,12.5,23.81,68.947
+defog,freeze_index,41,7,0.0,0.0,82.234
+defog,freeze_index,42,3,33.333,100.0,34.114
+defog,freeze_index,43,2,0.0,0.0,82.37
+defog,freeze_index,44,16,6.25,25.0,72.072
+defog,freeze_index,45,9,0.0,28.571,61.866
+defog,frozen laboratory LSTM,2,2,0.0,50.0,241.162
+defog,frozen laboratory LSTM,3,14,42.857,100.0,100.822
+defog,frozen laboratory LSTM,4,0,,0.0,196.862
+defog,frozen laboratory LSTM,6,7,0.0,42.857,181.132
+defog,frozen laboratory LSTM,7,12,0.0,84.615,149.628
+defog,frozen laboratory LSTM,8,15,13.333,82.759,154.534
+defog,frozen laboratory LSTM,9,1,0.0,0.0,131.956
+defog,frozen laboratory LSTM,10,4,0.0,0.0,179.216
+defog,frozen laboratory LSTM,11,6,33.333,80.0,244.69
+defog,frozen laboratory LSTM,12,16,6.25,60.87,118.961
+defog,frozen laboratory LSTM,13,0,,0.0,111.845
+defog,frozen laboratory LSTM,14,1,0.0,0.0,174.959
+defog,frozen laboratory LSTM,15,2,0.0,100.0,192.366
+defog,frozen laboratory LSTM,16,7,28.571,87.5,94.426
+defog,frozen laboratory LSTM,17,8,12.5,58.333,172.954
+defog,frozen laboratory LSTM,18,16,25.0,82.609,162.555
+defog,frozen laboratory LSTM,19,0,,50.0,101.685
+defog,frozen laboratory LSTM,20,13,15.385,90.476,193.605
+defog,frozen laboratory LSTM,21,17,0.0,81.25,103.677
+defog,frozen laboratory LSTM,22,4,0.0,87.5,188.235
+defog,frozen laboratory LSTM,23,3,0.0,0.0,168.828
+defog,frozen laboratory LSTM,24,34,11.765,92.453,101.351
+defog,frozen laboratory LSTM,25,7,28.571,60.0,164.482
+defog,frozen laboratory LSTM,26,19,21.053,80.769,131.25
+defog,frozen laboratory LSTM,27,13,0.0,94.737,93.016
+defog,frozen laboratory LSTM,29,7,28.571,100.0,117.391
+defog,frozen laboratory LSTM,30,1,0.0,0.0,125.463
+defog,frozen laboratory LSTM,31,18,33.333,89.655,183.273
+defog,frozen laboratory LSTM,32,4,0.0,50.0,170.293
+defog,frozen laboratory LSTM,33,1,0.0,100.0,140.773
+defog,frozen laboratory LSTM,34,19,21.053,68.182,170.793
+defog,frozen laboratory LSTM,35,6,50.0,77.778,224.299
+defog,frozen laboratory LSTM,36,40,30.0,85.246,128.667
+defog,frozen laboratory LSTM,37,20,35.0,86.364,185.978
+defog,frozen laboratory LSTM,38,9,0.0,100.0,221.368
+defog,frozen laboratory LSTM,39,10,30.0,72.727,237.695
+defog,frozen laboratory LSTM,40,8,25.0,95.238,151.683
+defog,frozen laboratory LSTM,41,7,0.0,28.571,228.426
+defog,frozen laboratory LSTM,42,3,0.0,0.0,130.435
+defog,frozen laboratory LSTM,43,2,0.0,0.0,198.533
+defog,frozen laboratory LSTM,44,16,12.5,87.5,136.937
+defog,frozen laboratory LSTM,45,9,0.0,64.286,182.651
+FoG-STAR,freeze_index,1,4,25.0,60.0,70.687
+FoG-STAR,freeze_index,2,12,0.0,46.154,31.607
+FoG-STAR,freeze_index,3,7,0.0,71.429,21.333
+FoG-STAR,freeze_index,4,1,0.0,0.0,53.731
+FoG-STAR,freeze_index,5,0,,100.0,46.154
+FoG-STAR,freeze_index,9,10,0.0,0.0,58.182
+FoG-STAR,freeze_index,11,8,0.0,33.333,31.304
+FoG-STAR,freeze_index,12,4,0.0,50.0,50.174
+FoG-STAR,freeze_index,13,2,50.0,33.333,59.178
+FoG-STAR,freeze_index,15,9,22.222,100.0,87.805
+FoG-STAR,freeze_index,16,1,0.0,0.0,130.317
+FoG-STAR,freeze_index,17,1,0.0,0.0,0.0
+FoG-STAR,freeze_index,19,8,0.0,66.667,19.753
+FoG-STAR,freeze_index,20,6,0.0,0.0,51.923
+FoG-STAR,freeze_index,21,2,0.0,0.0,110.769
+FoG-STAR,freeze_index,22,2,0.0,0.0,0.0
+FoG-STAR,frozen laboratory LSTM,1,4,0.0,100.0,70.687
+FoG-STAR,frozen laboratory LSTM,2,12,16.667,46.154,12.643
+FoG-STAR,frozen laboratory LSTM,3,7,42.857,100.0,42.667
+FoG-STAR,frozen laboratory LSTM,4,1,0.0,100.0,134.328
+FoG-STAR,frozen laboratory LSTM,5,0,,100.0,46.154
+FoG-STAR,frozen laboratory LSTM,9,10,10.0,70.0,58.182
+FoG-STAR,frozen laboratory LSTM,11,8,12.5,11.111,62.609
+FoG-STAR,frozen laboratory LSTM,12,4,0.0,100.0,50.174
+FoG-STAR,frozen laboratory LSTM,13,2,0.0,0.0,138.082
+FoG-STAR,frozen laboratory LSTM,15,9,33.333,88.889,117.073
+FoG-STAR,frozen laboratory LSTM,16,1,0.0,0.0,228.054
+FoG-STAR,frozen laboratory LSTM,17,1,0.0,0.0,218.182
+FoG-STAR,frozen laboratory LSTM,19,8,25.0,88.889,19.753
+FoG-STAR,frozen laboratory LSTM,20,6,33.333,33.333,138.462
+FoG-STAR,frozen laboratory LSTM,21,2,100.0,100.0,0.0
+FoG-STAR,frozen laboratory LSTM,22,2,0.0,100.0,0.0
+DAPHNET,freeze_index,1,21,0.0,100.0,28.421
+DAPHNET,freeze_index,2,18,5.556,31.818,66.148
+DAPHNET,freeze_index,3,32,3.125,90.476,30.448
+DAPHNET,freeze_index,5,49,12.245,71.667,29.282
+DAPHNET,freeze_index,6,9,11.111,30.0,66.935
+DAPHNET,freeze_index,7,22,9.091,12.5,91.677
+DAPHNET,freeze_index,8,14,7.143,100.0,4.675
+DAPHNET,freeze_index,9,27,3.704,40.741,51.724
+DAPHNET,frozen laboratory LSTM,1,21,38.095,95.652,149.684
+DAPHNET,frozen laboratory LSTM,2,18,33.333,95.455,94.134
+DAPHNET,frozen laboratory LSTM,3,32,25.0,85.714,51.94
+DAPHNET,frozen laboratory LSTM,5,49,34.694,96.667,46.507
+DAPHNET,frozen laboratory LSTM,6,9,33.333,90.0,50.653
+DAPHNET,frozen laboratory LSTM,7,22,50.0,87.5,33.54
+DAPHNET,frozen laboratory LSTM,8,14,21.429,100.0,56.104
+DAPHNET,frozen laboratory LSTM,9,27,40.741,92.593,53.793
+defog,movement_power,2,2,0.0,50.0,133.656
+defog,movement_power,3,14,7.143,4.348,26.301
+defog,movement_power,4,0,,50.0,158.135
+defog,movement_power,6,7,14.286,85.714,97.035
+defog,movement_power,7,12,0.0,15.385,78.246
+defog,movement_power,8,15,6.667,58.621,63.075
+defog,movement_power,9,1,0.0,0.0,71.976
+defog,movement_power,10,4,0.0,50.0,71.686
+defog,movement_power,11,6,0.0,60.0,122.345
+defog,movement_power,12,16,0.0,34.783,45.319
+defog,movement_power,13,0,,0.0,55.922
+defog,movement_power,14,1,0.0,0.0,83.031
+defog,movement_power,15,2,0.0,66.667,89.313
+defog,movement_power,16,7,0.0,0.0,56.066
+defog,movement_power,17,8,0.0,0.0,49.644
+defog,movement_power,18,16,6.25,4.348,51.542
+defog,movement_power,19,0,,50.0,103.469
+defog,movement_power,20,13,0.0,4.762,73.256
+defog,movement_power,21,17,0.0,3.125,25.919
+defog,movement_power,22,4,25.0,50.0,96.257
+defog,movement_power,23,3,0.0,0.0,14.897
+defog,movement_power,24,34,0.0,3.774,0.0
+defog,movement_power,25,7,0.0,10.0,72.944
+defog,movement_power,26,19,5.263,19.231,107.143
+defog,movement_power,27,13,0.0,0.0,101.736
+defog,movement_power,29,7,28.571,66.667,136.957
+defog,movement_power,30,1,0.0,0.0,72.141
+defog,movement_power,31,18,0.0,0.0,23.564
+defog,movement_power,32,4,0.0,25.0,156.67
+defog,movement_power,33,1,0.0,66.667,79.086
+defog,movement_power,34,19,0.0,4.545,4.217
+defog,movement_power,35,6,16.667,22.222,145.794
+defog,movement_power,36,40,2.5,1.639,36.188
+defog,movement_power,37,20,0.0,36.364,77.29
+defog,movement_power,38,9,11.111,41.667,116.218
+defog,movement_power,39,10,0.0,27.273,95.078
+defog,movement_power,40,8,0.0,9.524,112.285
+defog,movement_power,41,7,14.286,28.571,76.142
+defog,movement_power,42,3,0.0,0.0,36.12
+defog,movement_power,43,2,0.0,50.0,76.034
+defog,movement_power,44,16,0.0,0.0,0.0
+defog,movement_power,45,9,0.0,0.0,129.624
+defog,frozen laboratory LSTM,2,2,0.0,50.0,241.162
+defog,frozen laboratory LSTM,3,14,42.857,100.0,100.822
+defog,frozen laboratory LSTM,4,0,,0.0,196.862
+defog,frozen laboratory LSTM,6,7,0.0,42.857,181.132
+defog,frozen laboratory LSTM,7,12,0.0,84.615,149.628
+defog,frozen laboratory LSTM,8,15,13.333,82.759,154.534
+defog,frozen laboratory LSTM,9,1,0.0,0.0,131.956
+defog,frozen laboratory LSTM,10,4,0.0,0.0,179.216
+defog,frozen laboratory LSTM,11,6,33.333,80.0,244.69
+defog,frozen laboratory LSTM,12,16,6.25,60.87,118.961
+defog,frozen laboratory LSTM,13,0,,0.0,111.845
+defog,frozen laboratory LSTM,14,1,0.0,0.0,174.959
+defog,frozen laboratory LSTM,15,2,0.0,100.0,192.366
+defog,frozen laboratory LSTM,16,7,28.571,87.5,94.426
+defog,frozen laboratory LSTM,17,8,12.5,58.333,172.954
+defog,frozen laboratory LSTM,18,16,25.0,82.609,162.555
+defog,frozen laboratory LSTM,19,0,,50.0,101.685
+defog,frozen laboratory LSTM,20,13,15.385,90.476,193.605
+defog,frozen laboratory LSTM,21,17,0.0,81.25,103.677
+defog,frozen laboratory LSTM,22,4,0.0,87.5,188.235
+defog,frozen laboratory LSTM,23,3,0.0,0.0,168.828
+defog,frozen laboratory LSTM,24,34,11.765,92.453,101.351
+defog,frozen laboratory LSTM,25,7,28.571,60.0,164.482
+defog,frozen laboratory LSTM,26,19,21.053,80.769,131.25
+defog,frozen laboratory LSTM,27,13,0.0,94.737,93.016
+defog,frozen laboratory LSTM,29,7,28.571,100.0,117.391
+defog,frozen laboratory LSTM,30,1,0.0,0.0,125.463
+defog,frozen laboratory LSTM,31,18,33.333,89.655,183.273
+defog,frozen laboratory LSTM,32,4,0.0,50.0,170.293
+defog,frozen laboratory LSTM,33,1,0.0,100.0,140.773
+defog,frozen laboratory LSTM,34,19,21.053,68.182,170.793
+defog,frozen laboratory LSTM,35,6,50.0,77.778,224.299
+defog,frozen laboratory LSTM,36,40,30.0,85.246,128.667
+defog,frozen laboratory LSTM,37,20,35.0,86.364,185.978
+defog,frozen laboratory LSTM,38,9,0.0,100.0,221.368
+defog,frozen laboratory LSTM,39,10,30.0,72.727,237.695
+defog,frozen laboratory LSTM,40,8,25.0,95.238,151.683
+defog,frozen laboratory LSTM,41,7,0.0,28.571,228.426
+defog,frozen laboratory LSTM,42,3,0.0,0.0,130.435
+defog,frozen laboratory LSTM,43,2,0.0,0.0,198.533
+defog,frozen laboratory LSTM,44,16,12.5,87.5,136.937
+defog,frozen laboratory LSTM,45,9,0.0,64.286,182.651
+FoG-STAR,movement_power,1,4,0.0,20.0,20.196
+FoG-STAR,movement_power,2,12,0.0,0.0,0.0
+FoG-STAR,movement_power,3,7,0.0,0.0,10.667
+FoG-STAR,movement_power,4,1,0.0,0.0,13.433
+FoG-STAR,movement_power,5,0,,100.0,115.385
+FoG-STAR,movement_power,9,10,0.0,10.0,0.0
+FoG-STAR,movement_power,11,8,0.0,0.0,0.0
+FoG-STAR,movement_power,12,4,0.0,0.0,0.0
+FoG-STAR,movement_power,13,2,0.0,0.0,19.726
+FoG-STAR,movement_power,15,9,0.0,88.889,14.634
+FoG-STAR,movement_power,16,1,0.0,0.0,32.579
+FoG-STAR,movement_power,17,1,100.0,100.0,0.0
+FoG-STAR,movement_power,19,8,0.0,0.0,0.0
+FoG-STAR,movement_power,20,6,16.667,50.0,51.923
+FoG-STAR,movement_power,21,2,0.0,0.0,0.0
+FoG-STAR,movement_power,22,2,0.0,0.0,0.0
+FoG-STAR,frozen laboratory LSTM,1,4,0.0,100.0,70.687
+FoG-STAR,frozen laboratory LSTM,2,12,16.667,46.154,12.643
+FoG-STAR,frozen laboratory LSTM,3,7,42.857,100.0,42.667
+FoG-STAR,frozen laboratory LSTM,4,1,0.0,100.0,134.328
+FoG-STAR,frozen laboratory LSTM,5,0,,100.0,46.154
+FoG-STAR,frozen laboratory LSTM,9,10,10.0,70.0,58.182
+FoG-STAR,frozen laboratory LSTM,11,8,12.5,11.111,62.609
+FoG-STAR,frozen laboratory LSTM,12,4,0.0,100.0,50.174
+FoG-STAR,frozen laboratory LSTM,13,2,0.0,0.0,138.082
+FoG-STAR,frozen laboratory LSTM,15,9,33.333,88.889,117.073
+FoG-STAR,frozen laboratory LSTM,16,1,0.0,0.0,228.054
+FoG-STAR,frozen laboratory LSTM,17,1,0.0,0.0,218.182
+FoG-STAR,frozen laboratory LSTM,19,8,25.0,88.889,19.753
+FoG-STAR,frozen laboratory LSTM,20,6,33.333,33.333,138.462
+FoG-STAR,frozen laboratory LSTM,21,2,100.0,100.0,0.0
+FoG-STAR,frozen laboratory LSTM,22,2,0.0,100.0,0.0
+DAPHNET,movement_power,1,21,0.0,100.0,20.842
+DAPHNET,movement_power,2,18,0.0,95.455,30.53
+DAPHNET,movement_power,3,32,12.5,83.333,16.119
+DAPHNET,movement_power,5,49,6.122,76.667,13.78
+DAPHNET,movement_power,6,9,0.0,50.0,25.327
+DAPHNET,movement_power,7,22,4.545,37.5,20.124
+DAPHNET,movement_power,8,14,0.0,0.0,0.0
+DAPHNET,movement_power,9,27,7.407,11.111,8.276
+DAPHNET,frozen laboratory LSTM,1,21,38.095,95.652,149.684
+DAPHNET,frozen laboratory LSTM,2,18,33.333,95.455,94.134
+DAPHNET,frozen laboratory LSTM,3,32,25.0,85.714,51.94
+DAPHNET,frozen laboratory LSTM,5,49,34.694,96.667,46.507
+DAPHNET,frozen laboratory LSTM,6,9,33.333,90.0,50.653
+DAPHNET,frozen laboratory LSTM,7,22,50.0,87.5,33.54
+DAPHNET,frozen laboratory LSTM,8,14,21.429,100.0,56.104
+DAPHNET,frozen laboratory LSTM,9,27,40.741,92.593,53.793
