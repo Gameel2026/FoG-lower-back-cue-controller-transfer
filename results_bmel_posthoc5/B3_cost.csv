@@ -1,0 +1,4 @@
+model,size_MB,ms_per_window_inference,nodes,parameters
+"RF, depth 10 (compact)",8.5863,5.2355,106920.0,
+"LSTM, 4 s history (replication)",0.275,,,68738.0
+"LSTM, current window only",0.275,,,68738.0

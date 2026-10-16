@@ -1,0 +1,10 @@
+dataset,metric,patients,median,CI_low,CI_high
+defog,timely_%,39,6.25,0.0,21.053
+defog,coverage_%,42,78.889,59.165,84.931
+defog,false_alarms_per_hour,42,166.655,138.855,180.174
+FoG-STAR,timely_%,15,10.0,0.0,25.0
+FoG-STAR,coverage_%,16,88.889,33.333,100.0
+FoG-STAR,false_alarms_per_hour,16,60.395,32.953,134.328
+DAPHNET,timely_%,8,34.014,25.0,40.741
+DAPHNET,coverage_%,8,94.024,87.5,96.667
+DAPHNET,false_alarms_per_hour,8,52.867,46.507,94.134

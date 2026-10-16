@@ -1,0 +1,19 @@
+dataset,comparison,metric,patients,median_difference,wilcoxon_p_two_sided
+defog,"frozen LSTM minus LSTM, current window only",timely_%,39,0.0,0.0494
+defog,"frozen LSTM minus LSTM, current window only",coverage_%,42,0.0,0.1627
+defog,"frozen LSTM minus LSTM, current window only",false_alarms_per_hour,42,59.1061,0.0
+defog,"frozen LSTM minus RF, depth 10 (compact)",timely_%,39,0.0,0.0193
+defog,"frozen LSTM minus RF, depth 10 (compact)",coverage_%,42,3.8981,0.0095
+defog,"frozen LSTM minus RF, depth 10 (compact)",false_alarms_per_hour,42,69.5241,0.0
+FoG-STAR,"frozen LSTM minus LSTM, current window only",timely_%,15,0.0,0.018
+FoG-STAR,"frozen LSTM minus LSTM, current window only",coverage_%,16,3.8462,0.2836
+FoG-STAR,"frozen LSTM minus LSTM, current window only",false_alarms_per_hour,16,19.7542,0.0277
+FoG-STAR,"frozen LSTM minus RF, depth 10 (compact)",timely_%,15,10.0,0.0117
+FoG-STAR,"frozen LSTM minus RF, depth 10 (compact)",coverage_%,16,30.9524,0.0103
+FoG-STAR,"frozen LSTM minus RF, depth 10 (compact)",false_alarms_per_hour,16,15.0988,0.0995
+DAPHNET,"frozen LSTM minus LSTM, current window only",timely_%,8,9.8958,0.1282
+DAPHNET,"frozen LSTM minus LSTM, current window only",coverage_%,8,12.9762,0.018
+DAPHNET,"frozen LSTM minus LSTM, current window only",false_alarms_per_hour,8,-9.8957,0.499
+DAPHNET,"frozen LSTM minus RF, depth 10 (compact)",timely_%,8,22.3356,0.0234
+DAPHNET,"frozen LSTM minus RF, depth 10 (compact)",coverage_%,8,54.6296,0.018
+DAPHNET,"frozen LSTM minus RF, depth 10 (compact)",false_alarms_per_hour,8,5.4768,0.1094
