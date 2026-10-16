@@ -1,0 +1,13 @@
+comparison,metric,role,n_patients,mean_controller,mean_pop,median_difference,patients_improved,patients_worse,p_wilcoxon,p_holm,verdict_pre_specified
+C-personal vs C-pop,cue_f1,primary,41,0.66796,0.64201,0.0172,27,14,0.01308,,"REPLICATED (direction) | clinically favourable: False (FA within +10%: False, coverage within -5 pp: True)"
+C-personal vs C-pop,false_alarms_per_hour,secondary,62,58.05818,44.21783,0.0,10,30,0.00218,0.00436,
+C-personal vs C-pop,coverage_%,secondary,41,78.4624,73.16216,3.57143,25,8,0.01333,0.01333,
+C-cal-2 vs C-pop,cue_f1,secondary,41,0.64841,0.64201,0.00376,22,18,0.36071,0.58889,
+C-cal-2 vs C-pop,false_alarms_per_hour,secondary,62,62.60557,44.21783,2.19228,5,32,1e-05,2e-05,
+C-cal-2 vs C-pop,coverage_%,secondary,41,78.52303,73.16216,2.08333,21,4,0.01381,0.01381,
+C-cal-5 vs C-pop,cue_f1,secondary,41,0.65636,0.64201,0.00154,22,18,0.29444,0.58889,
+C-cal-5 vs C-pop,false_alarms_per_hour,secondary,62,61.48609,44.21783,0.0,7,30,0.00024,0.00048,
+C-cal-5 vs C-pop,coverage_%,secondary,41,78.09626,73.16216,3.57143,23,9,0.01799,0.01799,
+C-cal-10 vs C-pop,cue_f1,secondary,41,0.65883,0.64201,0.01247,25,16,0.15973,0.47919,
+C-cal-10 vs C-pop,false_alarms_per_hour,secondary,62,55.52142,44.21783,0.0,13,26,0.01518,0.03035,
+C-cal-10 vs C-pop,coverage_%,secondary,41,77.00712,73.16216,2.08333,21,7,0.03617,0.03617,
