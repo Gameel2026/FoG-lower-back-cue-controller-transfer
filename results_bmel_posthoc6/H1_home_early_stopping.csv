@@ -1,0 +1,3 @@
+controller,specificity,false_alarms_per_hour,cue_on_%,timely_%,timely_chance,p_timely,coverage_%,coverage_chance,p_coverage,timely_excess_median,timely_excess_CI,timely_patients_above,timely_excess_p,coverage_excess_median,coverage_excess_CI,coverage_patients_above,coverage_excess_p
+"home-trained LSTM, early stopping, frozen rule",0.8981,32.5006,13.014,8.4788,8.7266,0.6067,41.92,40.2718,0.08,-1.6,"[-3.9, 0.0]",10/39,0.9277,0.0,"[-0.2, 0.5]",17/42,0.2874
+"home-trained LSTM, early stopping, window F1 with specificity floor",0.8897,26.842,14.2083,3.99,6.0802,0.987,39.36,37.7172,0.075,-1.5889,"[-5.0, 0.0]",8/39,0.9819,0.0,"[0.0, 1.3]",18/42,0.1701
